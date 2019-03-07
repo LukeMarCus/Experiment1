@@ -1,0 +1,69 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+int main()
+{
+	int a;
+	int b;
+	int c;
+	int d;
+
+	int g1p;
+	int g1b;
+	int g1s;
+	int g1g;
+
+	cout<<"Total Ticket Sale Calculator"<< endl;
+
+	cout<< "Price of Premium Tickets" << endl;
+	cin>> a; 
+	cout<< "Price of Box Tickets" << endl;
+	cin>> b;
+	cout<< "Price of Sideline Tickets" << endl;
+	cin>> c;
+	cout<< "Price of General Admission Tickets" << endl;
+	cin>> d; 
+
+	
+	cout<< "Game number 1." << endl;
+
+	cout<< "What is the number of Premium Tickets sold?" << endl;
+	cin>> g1p;
+	cout<< "What is the number of Box Tickets sold?" << endl;
+	cin>> g1b;
+	cout<< "What is the number of Sideline Tickets sold?" << endl;
+	cin>> g1s;
+	cout<< "What is the number of General Admission Tickets sold?" << endl;
+	cin>> g1g;
+
+	int G1TTS=(g1p*a)+(g1b*b)+(g1s*c)+(g1g*d)
+	cout<< "The total ticket sale for game 1 is " << G1TTS endl;
+
+	int g2p;
+	int g2b;
+	int g2s;
+	int g2g;
+
+	cout<< "Game number 2." << endl;
+
+	cout<< "What is the number of Premium Tickets sold?" << endl;
+	cin>> g2p;
+	cout<< "What is the number of Box Tickets sold?" << endl;
+	cin>> g2b;
+	cout<< "What is the number of Sideline Tickets sold?" << endl;
+	cin>> g2s;
+	cout<< "What is the number of General Admission Tickets sold?" << endl;
+	cin>> g2g;
+
+	int G2TTS=(g2p*a)+(g2b*b)+(g2s*c)+(g2g*d)
+	cout<< "The total ticket sale for game 2 is " << G2TTS;
+
+
+
+_getch();
+
+	return 0;
+}
